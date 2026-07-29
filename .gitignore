@@ -1,0 +1,69 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Local notebook build / run helpers
+_build_notebook.py
+_run_notebook.py
+_test_*.py
+_fig/
+notebook_backup*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Cursor
+.cursor/
+
+# Data
+*.csv
+*.parquet
+*.feather
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+
+# Logs / temp
+*.log
+tmp/
+temp/
+.cache/
+
+# Coverage / testing
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Secrets (defensive)
+.env
+.env.*
+!.env.example
+credentials.json
+*.pem
+*.key
